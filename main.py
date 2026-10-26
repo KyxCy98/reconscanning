@@ -24,7 +24,7 @@ from module import (
 )
 
 def main():
-#    os.system('clear') # clear
+    os.system("cls" if os.name == "nt" else "clear") # clear
     banner()
 
     p = argparse.ArgumentParser(description='')
